@@ -1,0 +1,20 @@
+Week 2 Tiger Team Alarm Clock Pseudocode Activity.
+
+START
+1. Set the time for the alarm to go off
+    1a. Specify whether it's in military time or standard time.
+    1b. Specify whether it's AM or PM
+    1c. Specify what timezone it's in
+    1d. Specify what day(s) of the time of the week you want the alarm to go off
+
+2. If the current time is not equal to the time the alarm should go off
+    2a. Alarm will stay silent, wait until the current time equals the time the alarm should go off
+
+    3. If the current time is equal to the time the alarm should go off
+        3a. Alarm will sound
+        3b. Ask user to either snooze or completely stop the alarm
+            3b.1 If user snoozes, then snooze alarm for 5 minutes
+                Once 5 minutes passes, alarm goes off again, and ask the user to snooze or stop again
+                (loop)
+            3b.2. If user stops the alarm, alarm turns off and doesn't turn on until its's scheduled to go again. End function
+END 
