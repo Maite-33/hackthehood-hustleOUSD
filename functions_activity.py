@@ -44,5 +44,3 @@ def pay_and_get_change(item1, item2, money_given):
         return change
 
 print(pay_and_get_change('Pizza', 'Burger', 5))
-
-#or the change after paying, in case the person has a bill of 10 or any other bill, it would be the bill - item cost, to throw out the change. 
