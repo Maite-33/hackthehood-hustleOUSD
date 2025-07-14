@@ -1,5 +1,22 @@
 # Debugging Activity With Maite R.
 
+# Code Snippet 1:
+# Incorrect:
+
+print(' ')
+print("Case 1 ~~~~~~")
+print(' ')
+
+# Incorrect:
+x = 10
+y = 2
+result = x / y
+print("Result:", result)
+
+# Problem: Division by zero, a number can not be devided by 0, it will come up as an error
+# Solution: Change the value of y. For example, the number 2 instead of 0
+
+
 # Code Snippet 2: 
 
 print(' ')
