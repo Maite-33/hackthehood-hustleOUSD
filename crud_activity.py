@@ -10,7 +10,7 @@ def create(recipe):
 
 def read(index):
     if index in range(len(cookbook)):
-        return cookbook[index]
+        print(cookbook[index])
     else:
         print("Aw shucks, the list ain't long enough, sorry T-T")
 
