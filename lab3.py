@@ -41,9 +41,9 @@ books = {"Jeff Kinney": 'The Diary of The Wimpy kid',
         'Manohar Malgonkar': ' Bend in the Ganges',
         'Ashok Gupta': 'A Billion Is Enough',
         'Toni Morrison': 'Beloved'}
-print(books.key())
+print(books.keys())
 print(books.values())
-orint(books.get())
+print(books.get())
 
 books.pop('Toni Morrison')
 print(books)

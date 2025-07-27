@@ -63,4 +63,4 @@ def game_loop():
 # Had to search this one up, I don't know exactly what this is
 
 if __name__ == "__main__":     # Using this, the coding underneath it will only work once it is called using its assigned file name
-    game_loop()                # then it will initiate game_loop, questioning whether the code will run or not
+    game_loop()                # then it will initiate game_loop, whether it continues or not based on the users input 

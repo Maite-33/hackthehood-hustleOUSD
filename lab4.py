@@ -37,5 +37,4 @@ for i in inventory:
         print(f"OMGGG, CONGRATS, you got {i}!")
     else:
         print(f"Oh, look at you, you got {i}")
-
     
